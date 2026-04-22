@@ -80,6 +80,14 @@
     <footer>
         <p>© 2026 My Portfolio</p>
     </footer>
+	<script>
+function showSection(id) {
+    let sections = document.querySelectorAll("section");
+    sections.forEach(sec => sec.style.display = "none");
+
+    document.getElementById(id).style.display = "block";
+}
+</script>
 
 </body>
 </html>
