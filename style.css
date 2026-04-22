@@ -106,7 +106,13 @@ button {
 button:hover {
     background: #666;
 }
+section {
+    display: none;
+}
 
+#home {
+    display: block;
+}
 /* Links */
 a {
     color: blue;
