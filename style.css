@@ -66,7 +66,15 @@ img:hover{
     padding: 15px;
     border: 1px solid #ccc;
 }
+/* Hide all sections */
+section {
+    display: none;
+}
 
+/* Show only Home by default */
+#home {
+    display: block;
+}
 /* Links */
 a {
     color: blue;
