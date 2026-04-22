@@ -67,35 +67,37 @@ img:hover{
     border: 1px solid #ccc;
 }
 .calculator {
-    width: 220px;
-    margin: 20px auto;
+    width: 260px;
+    margin: 40px auto;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 12px;
     background: #222;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
 }
 
 #display {
     width: 100%;
-    height: 40px;
-    margin-bottom: 10px;
+    height: 50px;
+    margin-bottom: 12px;
     text-align: right;
-    font-size: 18px;
-    padding: 5px;
-    border-radius: 5px;
+    font-size: 20px;
+    padding: 8px;
+    border-radius: 6px;
     border: none;
+    outline: none;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 8px;
+    gap: 10px;
 }
 
 button {
-    padding: 10px;
+    padding: 12px;
     font-size: 16px;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     background: #444;
     color: white;
     cursor: pointer;
@@ -104,15 +106,7 @@ button {
 button:hover {
     background: #666;
 }
-/* Hide all sections */
-section {
-    display: none;
-}
 
-/* Show only Home by default */
-#home {
-    display: block;
-}
 /* Links */
 a {
     color: blue;
